@@ -6,7 +6,7 @@
 using namespace std;
 
 //Оптимизируйте эту функцию
-bool Compare(Student first, Student second) {
+bool Compare(const Student& first, const Student& second) {
   return first.Less(second);
 }
 
