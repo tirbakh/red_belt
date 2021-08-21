@@ -7,11 +7,6 @@
 
 using namespace std;
 
-struct User {
-    int id;
-    int currentPage;
-};
-
 class ReadingManager {
 public:
     void Read(int userId, int pageCount) {
